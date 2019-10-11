@@ -105,21 +105,29 @@ h2{
     font-family: 'Open Sans', sans-serif;
     max-width: 70%;
 }
+.text-link{
+    text-align: left;
+}
 .img-pause{
     height: 15px;
 }
 #logo{
     float: left;
-    margin-right: 5px;
+    margin: 10px;
+    shape-outside: circle(50%);
+}
+#logo-js{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px;
+    shape-outside: inset(0 5px 10px 5px);
 }
 .rightcolumn-skill{
     max-width: 75%;
 }
 .text-design{
     max-width: 80%;
-}
-.text-link{
-    text-align: right;
 }
 .grid-skill{
     display: grid;
@@ -263,4 +271,7 @@ input[type="checkbox"]:checked ~ .section-skills *{
     width: 15px;
     background-color: $blue;
     border-radius: 50%;
+}
+.switch{
+    font: 14px, 'Open Sans', sans-serif;
 }
